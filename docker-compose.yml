@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  mongo-local:
+    image: mongo:latest
+    container_name: mongo-local
+    restart: always
